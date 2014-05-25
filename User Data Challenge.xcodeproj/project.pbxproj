@@ -21,6 +21,11 @@
 		18B14136191AE14F000138B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B14118191AE14F000138B6 /* UIKit.framework */; };
 		18B1413E191AE14F000138B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18B1413C191AE14F000138B6 /* InfoPlist.strings */; };
 		18B14140191AE14F000138B6 /* User_Data_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1413F191AE14F000138B6 /* User_Data_ChallengeTests.m */; };
+		18B1414B191AE192000138B6 /* JTUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1414A191AE192000138B6 /* JTUserData.m */; };
+		18B14151191AE505000138B6 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1414D191AE505000138B6 /* person1.jpeg */; };
+		18B14152191AE505000138B6 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1414E191AE505000138B6 /* person2.jpeg */; };
+		18B14153191AE505000138B6 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1414F191AE505000138B6 /* person3.jpg */; };
+		18B14154191AE505000138B6 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18B14150191AE505000138B6 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		18B1413B191AE14F000138B6 /* User Data ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		18B1413D191AE14F000138B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18B1413F191AE14F000138B6 /* User_Data_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_ChallengeTests.m; sourceTree = "<group>"; };
+		18B14149191AE192000138B6 /* JTUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTUserData.h; path = ../JTUserData.h; sourceTree = "<group>"; };
+		18B1414A191AE192000138B6 /* JTUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTUserData.m; path = ../JTUserData.m; sourceTree = "<group>"; };
+		18B1414D191AE505000138B6 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		18B1414E191AE505000138B6 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		18B1414F191AE505000138B6 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		18B14150191AE505000138B6 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +128,7 @@
 				18B14126191AE14F000138B6 /* Main.storyboard */,
 				18B14129191AE14F000138B6 /* JTViewController.h */,
 				18B1412A191AE14F000138B6 /* JTViewController.m */,
+				18B1414C191AE1AC000138B6 /* Model */,
 				18B1412C191AE14F000138B6 /* Images.xcassets */,
 				18B1411B191AE14F000138B6 /* Supporting Files */,
 			);
@@ -126,6 +138,10 @@
 		18B1411B191AE14F000138B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18B1414D191AE505000138B6 /* person1.jpeg */,
+				18B1414E191AE505000138B6 /* person2.jpeg */,
+				18B1414F191AE505000138B6 /* person3.jpg */,
+				18B14150191AE505000138B6 /* person4.jpeg */,
 				18B1411C191AE14F000138B6 /* User Data Challenge-Info.plist */,
 				18B1411D191AE14F000138B6 /* InfoPlist.strings */,
 				18B14120191AE14F000138B6 /* main.m */,
@@ -150,6 +166,15 @@
 				18B1413C191AE14F000138B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B1414C191AE1AC000138B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B14149191AE192000138B6 /* JTUserData.h */,
+				18B1414A191AE192000138B6 /* JTUserData.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B14153191AE505000138B6 /* person3.jpg in Resources */,
+				18B14151191AE505000138B6 /* person1.jpeg in Resources */,
 				18B1412D191AE14F000138B6 /* Images.xcassets in Resources */,
 				18B1411F191AE14F000138B6 /* InfoPlist.strings in Resources */,
+				18B14154191AE505000138B6 /* person4.jpeg in Resources */,
 				18B14128191AE14F000138B6 /* Main.storyboard in Resources */,
+				18B14152191AE505000138B6 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			files = (
 				18B14125191AE14F000138B6 /* JTAppDelegate.m in Sources */,
 				18B1412B191AE14F000138B6 /* JTViewController.m in Sources */,
+				18B1414B191AE192000138B6 /* JTUserData.m in Sources */,
 				18B14121191AE14F000138B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JTViewController : UIViewController
+@interface JTViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (strong, nonatomic) NSArray *users;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
